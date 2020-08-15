@@ -1,0 +1,25 @@
+:root {
+    --profile-size: 350px;
+}
+
+@media (max-width: 650px) {
+    :root {
+        --profile-size: 150px;
+    }
+}
+
+.red-text {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: var(--profile-size);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.40), 0 6px 6px rgba(0,0,0,0.40);
+}
+
