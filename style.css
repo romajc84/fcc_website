@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background: #2E3440;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
 }
 
 .search-box {
